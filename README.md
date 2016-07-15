@@ -150,7 +150,7 @@ Two things to note:
    Homebrew.
 
 
-## Root and Additional CAs
+### Root and Additional CAs
 
 This Github Enterprise help
 [page](https://help.github.com/enterprise/11.10.340/admin/articles/using-self-signed-ssl-certificates/)
@@ -158,3 +158,11 @@ shows that how to create root CA and use it to sign additional CAs.
 This CoreOS's Kubernetes Step-by-Step instllation
 [guide](https://coreos.com/kubernetes/docs/latest/openssl.html) also
 shows how to create a root CA and use it to sign keypairs.
+
+
+### Using Self-signed Root CA
+
+This excellect Chinese
+[post](http://tonybai.com/2015/04/30/go-and-https/) shows how to
+program Go HTTPS server and client, both of which use a self-signed CA
+to verify each other.
