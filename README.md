@@ -96,15 +96,16 @@ MIIDlDCCAnwCCQDQ1UvQyFD7jDANBgkqhkiG9w0BAQsFADCBizELMAkGA1UEBhMC
 -----END CERTIFICATE-----
 ```
 
-As explained in this excellent
+I had been long CONFUSED by the very misleading information provided in this 
 [document](http://www.techradar.com/us/news/software/how-ssl-and-tls-works-1047412):
 
 > In essence, a digital certificate is the name (usually a domain
 > name) and the associated public key encrypted by the CA's private
 > key.
 
-Here we use our own private key as the CA's private key.  That is why
-it is called **self-signed** certificate.
+In fact, as public keys are "public", they are not suppsoed to be
+encrypted.  Instead, the certificate contains the public key in clear
+and its *digital signature*.
 
 
 ### PEM File Format
