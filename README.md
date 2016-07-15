@@ -166,3 +166,16 @@ This excellect Chinese
 [post](http://tonybai.com/2015/04/30/go-and-https/) shows how to
 program Go HTTPS server and client, both of which use a self-signed CA
 to verify each other.
+
+### OpenSSL Essentials
+
+[OpenSSL Essentials](https://www.digitalocean.com/community/tutorials/openssl-essentials-working-with-ssl-certificates-private-keys-and-csrs)
+shows various usages of OpenSSL.
+
+
+### How does "Sign" mean?
+
+This
+[article](http://commandlinefanatic.com/cgi-bin/showarticle.cgi?article=art012)
+explains that certificate is public key in clear and its digital
+signature.
